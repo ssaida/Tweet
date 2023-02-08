@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: silver;
+    font-family: sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.tweet{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tweet .picture{
+    width: 15%;
+    margin-right: 10px;
+}
+.tweet .picture img{
+    width: 100%;
+    border-radius: 50%;
+}
+.tweet .info{
+    flex: 1;
+}
+.tweet .info .auther{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.tweet .info .auther span{
+    color: rgb(96, 96, 96);
+}
+.comment{
+    width: 70%;
+    align-self: center;
+    margin: 10px auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment .left{
+    width: 30%;
+    height: 100px;
+    background: rgb(185, 185, 185);
+    border-radius: 20px 0 0 20px;
+}
+.comment .right{
+    flex: 1;
+    height: 97px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-left: -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+}
